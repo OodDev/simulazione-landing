@@ -48,48 +48,47 @@ INDICE
     align-items: center;
 }
 
+.border{
+    border: 8px solid rgb(0, 166, 196);
+}
+
 *{
  /*     font-family: 'Raleway', Helvetica, Arial, sans-serif;*/    
     font-family: 'Raleway'; /* NOn va: OK RISOLTO OMGGGGGGGG!!! Non PRENDE @INPUT nel css hmmmmmmm am nell'header dell'html va bahhh */
     font-weight: 400;
 }
 
-
+body{
+    background-color: #feffec;
+}
 
 
 /* ========================================== */
 /* 02 - Header, Nav */
 /* ========================================== */
 
-header{
-    background-color: #feffec;
-}
-
-.logo {
-    width: 10px;
-}
-
 nav{
-/*     border: 8px solid brown; */
+    /*     border: 8px solid brown; */
     justify-content: space-between;
     padding: 2px;
     max-width: 992px;
     margin: 0 auto;
-/*     height: 400px; */
+    /*     height: 400px; */
 }
 
 .logo{
-/*     height: 180px; */
-/*     border: 8px solid rgb(12, 173, 20); */
-/*     width: 150px; */
-    margin: 0 20px;
-    height: "100px";
+    /*     height: 180px; */
+    /*     border: 8px solid rgb(12, 173, 20); */
+    /*     width: 150px; */
+    width: 10px;
+    margin: 4px 20px 0px 20px;
 }
-.menu_sito{
-/*     height: 100px; */
-/*     border: 8px solid rgb(10, 69, 124); */
-/*     width: 100px; */
-}
+
+/* .menu_sito{
+    height: 100px;
+    border: 8px solid rgb(10, 69, 124);
+    width: 100px;
+} */
 
 .menu_sito ul {
     display: flex;
@@ -97,7 +96,7 @@ nav{
 
 .menu_sito ul li {
     display: unset;
-    margin: 0 10px;
+    margin: 0px 10px;
     font-size: 17px;
     font-weight: 700;
     text-transform: uppercase;
@@ -115,7 +114,8 @@ nav{
 }
 
 .hover_unzoom:hover{
-    scale: 93%;
+/*     scale: 0.93;  - a chat gpt non piace*/
+    transform: scale(0.93);
 }
 
 
@@ -148,7 +148,7 @@ h1 {
     font-size: 50px;
     font-weight: 600;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 5px; 
 }
 
 #frase_centro_pag{
@@ -165,13 +165,9 @@ h1 {
     text-rendering: optimizeLegibility; /* HMMM BAHHH BAH */
 }
 
-.border{
-    border: 8px solid rgb(0, 204, 255);
-}
-
 .div_bottoni{
     width: 60vw;
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -190,21 +186,28 @@ h1 {
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
 } */
 
-.btn{
+.btn a{
     margin: 20px 10px;
     padding: 10px 20px;
-    font-weight: normal;
     border-radius: 25px;
     cursor: pointer; /* AHHHH MANINA! Figo */
     background-color: rgba(255, 255, 255);
+    text-decoration: none;
+    font-weight: normal;
     color: rgb(0, 0, 0);
     text-align: center;
 }
 
-.btn:hover{
+.btn a:hover{
     background-color: rgba(255, 72, 0, 0.9);
     background-color: rgba(255, 255, 255);    
     background-color: rgba(0, 0, 0, 0.3);    
+    color: white;
+    border-radius: 7px;
+    font-weight: 700;
+}
+
+.btn a:hover{
     color: white;
     border-radius: 7px;
     font-weight: 700;
@@ -220,3 +223,38 @@ h1 {
     position: absolute;
 
 } */
+
+.sect1{
+/*     height: 400px; */
+    width: 60vw;
+    margin: 30px auto;
+    flex-direction: column;
+}
+
+.scopri{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.tre_scatole{
+/*     border: 5px solid red; */
+    display: flex; /* ALLORA QUALCOSA NON VA. sto comando VA RIPETUTO sennò i 2 successivi ( di allinemaento) LI IGNORA: WUF 1h per scorprilo. ok. */
+    /* display: flex va RIPETUTO  */
+    /* display: flex va RIPETUTO  */
+    /* display: flex va RIPETUTO  */
+    /* display: flex va RIPETUTO  */
+    /* display: flex va RIPETUTO  */
+    /* display: flex va RIPETUTO  */
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.square{
+    margin: 30px;
+    padding: 40px;
+    background-color: #daa107;
+}
+
+
+
