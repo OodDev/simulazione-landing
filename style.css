@@ -170,8 +170,10 @@ h1 {
 }
 
 .div_bottoni{
+    width: 60vw;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
     margin-bottom: 120px;
 }
@@ -189,9 +191,9 @@ h1 {
 } */
 
 .btn{
-    margin: 20px 30px;
+    margin: 20px 10px;
     padding: 10px 20px;
-    font-weight: bold;
+    font-weight: normal;
     border-radius: 25px;
     cursor: pointer; /* AHHHH MANINA! Figo */
     background-color: rgba(255, 255, 255);
@@ -205,6 +207,7 @@ h1 {
     background-color: rgba(0, 0, 0, 0.3);    
     color: white;
     border-radius: 7px;
+    font-weight: 700;
 }
 
 /* .btn2{
