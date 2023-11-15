@@ -7,8 +7,9 @@
 <!-- 
     01. Navbar
     02. Jumbotron
-    03. Sezione 1
-    04. ....  
+    03. Main Sezione 1
+    04. Main Sezione 2
+    05. ....  
 -->
 
 <!DOCTYPE html>
@@ -20,6 +21,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Ristorante moltafame alle 10:30, immaginati dopo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+B&family=Raleway:ital,wght@0,100;0,200;0,400;0,700;0,800;1,100;1,200;1,400&display=swap" rel="stylesheet">
  </head>
 
  <body>
@@ -28,19 +32,19 @@
         <nav class="flex_centered_vert">
 
             <!-- Menu sx -->
-            <div class="menu_sito flex_centered_horiz flex_centered_vert"">
+            <div class="menu_sito flex_centered_vert">
                 <ul>
                     <li><a href="#">Home</a></li>
                 </ul>
             </div>
 
             <!-- Logo centrale -->
-            <div class="logo flex_centered_horiz flex_centered_vert hover_unzoom">
-                <a href="./index.html"><img src="./assets/header/logo.png" alt="Logo Ristorante" height="70px"></a> <!--  target="_blank" tolto ofc -->
+            <div class="logo flex_centered_vert hover_unzoom">
+                <a href="./index.html"><img src="./assets/header/logo.png" alt="Logo Ristorante" height="50px"></a> <!--  target="_blank" tolto ofc -->
             </div>
 
             <!-- Menu dx -->
-            <div class="menu_sito flex_centered_horiz flex_centered_vert"">
+            <div class="menu_sito flex_centered_vert"">
                 <ul>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contacts</a></li>
@@ -49,16 +53,21 @@
         </nav>
     </header>
 
-    <!-- 02. Main -->    
-    <main>
-        <!-- PRIMA PARTE: faccio, al 100% dello schermo che rimane, una foto gigante con una scritta sopra. Poi il resto del sito si vedrà, prossime volte -->    
-        <section class="welcome_sect flex_centered_horiz flex_centered_vert">
-            <div id="frase_centro_pag">
-<!--            <p id="imagine_a_place">IMAGINE A PLACE</p> -->
-                <p>Frase</p>
-            </div>
-        </section>
-    </main>
+    <!-- 02. Jumbo -->    
+    <section class="jumbo flex_centered_horiz"> 
+        <div>
+            <h1>MAKING PEOPLE HAPPY</h1>
+        </div>
+        <div>
+            <p id="frase_centro_pag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore magni adipisci esse cumque nemo aut nihil necessitatibus. Enim, reiciendis quae consequatur non distinctio ducimus, fugiat ad eos, sequi consectetur perferendis?</p>
+        </div>
+        <div>
+            <div class="div_bottoni">
+                <div><p class="btn">button1</p></div>
+                <div><p class="btn">button1</p></div>
+             </div>
+        </div>
+    </section>
 
  </body>
 </html>
