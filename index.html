@@ -78,7 +78,7 @@
     La sezione in questione sarà composta da un titolo centrale alla pagina con tre card, come rappresentato qua sotto:  -->
     <section id="scopri_di_piu" class="sect1 flex_centered_horiz">
         <h2 class="scopri">
-            Scopri di più
+            Scopri <span>di più</span>
         </h2>
         <div class="tre_scatole">
             <div class="square">testo</div>
@@ -92,21 +92,32 @@
     Realizzare il footer che sarà simile a quanto segue:
     (Parlo di struttura, stile a piacere vostro!) -->
     <footer>
-        <div class="square">
-            Logo
+        <div>
+            <div class="flex_centered_horiz">
+                <div>
+                    <img src="./assets/header/logo.png" alt="Logo Company Cibo" height="70px">
+                </div>
+                <div>
+                    <ul>
+                        <li>Pagine</li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./contacts.html">Contatti</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>Link</li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>    
+            </div>
         </div>
-        <div class="square">
-            <ul>
-                <li>aa</li>
-                <li>aa</li>
-            </ul>
-        </div>
-        <div class="square">
-            <ul>
-                <li>aa</li>
-                <li>aa</li>            
-            </ul>
-        </div>
+        <div class="white_line"></div>
+        <div class="copyright">
+            Copy @2023 Paolo Montagna
+        </div>    
     </footer>    
  </body>
 </html>

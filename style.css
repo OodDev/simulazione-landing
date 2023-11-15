@@ -245,10 +245,14 @@ h1 {
 .scopri{
     text-align: center;
     font-size: 50px;
-    font-weight: 800;
+    font-weight: 200;
     color: #f1cb5f;
     opacity: 0.92;
     text-transform: uppercase;
+}
+
+.scopri span{
+    font-weight: 800;
 }
 
 .tre_scatole{
@@ -260,6 +264,8 @@ h1 {
     /* display: flex va RIPETUTO  */
     /* display: flex va RIPETUTO  */
     /* display: flex va RIPETUTO  */
+    /* Ah. aspetta. 2 dichiarazioni di classe, che si sovrappongono? e magari la seconda arriva DOPO la prima...?  */
+    /* Eh no. è nella parent. Chiedere. */
     flex-direction: row;
     justify-content: space-evenly;
 }
@@ -267,7 +273,7 @@ h1 {
 .square{
     margin: 30px;
     padding: 40px;
-    background-color: #daa107;
+    background-color: rgb(238, 180, 20);
 }
 
 
@@ -278,6 +284,70 @@ h1 {
 /* ========================================== */
 
 footer{
-    height: 500px;
     background-color: rgb(128, 128, 128);
+}
+
+footer div:first-of-type {
+    width: 100vh;
+    max-width: 992px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img{
+    margin: 20px;
+}
+
+.empty_space{
+    width: 50vw;
+}
+
+footer ul{
+    list-style: none;
+    margin: 30px;
+}
+
+footer ul li{
+    margin: 10px 10px;
+    font-weight: 200;
+}
+
+footer ul li:first-child{
+    display: unset;
+    margin: 0px 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1px; /* MA SPETTACOLO GRANDE NINOOOOOOOOO!!! */
+    opacity: 0.7;
+    text-decoration-color: #444444;
+}
+
+.metti_flex_in_vert{
+    flex-direction: column;
+}
+
+.white_line{
+    background-color: #feffec;
+    height: 2px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    text-align: center;
+/*     font-size: 16px; */
+    font-weight: 200;
 }
