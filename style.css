@@ -134,6 +134,7 @@ nav{
     margin: 0 auto;
     background-color: #daa107;
     background-image: url("./assets/jumbo/img_bkg_jumbo.jpg");
+    opacity: 0.92; /* DIVERTENTEEE - vintage */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -145,8 +146,8 @@ nav{
 h1 {
 /*     border: 5px solid rgb(40, 109, 173); */
     margin-top: 120px;
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 60px;
+    font-weight: 800;
     text-align: center;
     letter-spacing: 5px; 
 }
@@ -161,6 +162,9 @@ h1 {
     text-align: center;
     font-weight: 200;
     line-height: 1.25;
+    background-color: rgba(0, 0, 0, 0.33);
+    padding: 10px;
+    border-radius: 25px;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility; /* HMMM BAHHH BAH */
 }
@@ -200,7 +204,7 @@ h1 {
 
 .btn a:hover{
     background-color: rgba(255, 72, 0, 0.9);
-    background-color: rgba(255, 255, 255);    
+    background-color: rgba(255, 255, 255);    /* prove */
     background-color: rgba(0, 0, 0, 0.3);    
     color: white;
     border-radius: 7px;
@@ -233,8 +237,11 @@ h1 {
 
 .scopri{
     text-align: center;
-    font-size: 30px;
-    font-weight: 200;
+    font-size: 50px;
+    font-weight: 800;
+    color: #f1cb5f;
+    opacity: 0.92;
+    text-transform: uppercase;
 }
 
 .tre_scatole{
