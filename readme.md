@@ -1,9 +1,9 @@
 # Creating a Landing Page
 ## _Scope of the exercise was to create a landing page for a restaurant_
 
-[![PM|Restaurant webpage](.\assets\header\logo.png)](.\index.html)
-
-- ✨Magic ✨
+<a href="https://htmlpreview.github.io/?https://github.com/OodDev/simulazione-landing/blob/master/index.html"><img src="https://github.com/OodDev/simulazione-landing/assets/150029160/6ac7755b-089b-4523-bd25-486ba9293db3" alt="PM|Restaurant webpage" height="70px" target="_blank"></a>
+<br>
+Click on the image to preview the website. ✨Magic ✨
 
 ## Features
 
@@ -22,5 +22,6 @@ with it
 have lunch @192.168.1.254
 take a small break, dont be such a <nerd>
 ```
-
-![](.\assets\readme\quote1.jpg)
+<p align="center">
+  <img src="https://github.com/OodDev/simulazione-landing/assets/150029160/cceb48c0-0414-46f4-981d-0b1ff386ae32" width="700px" />
+</p>
