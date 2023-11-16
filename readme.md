@@ -1,7 +1,7 @@
 # Creating a Landing Page
 ## _Scope of the exercise was to create a landing page for a restaurant_
 
-[![PM|Restaurant webpage](\assets\header\logo.png)](.\index.html)
+[![PM|Restaurant webpage](.\assets\header\logo.png)](.\index.html)
 
 - ✨Magic ✨
 
@@ -22,3 +22,5 @@ with it
 have lunch @192.168.1.254
 take a small break, dont be such a <nerd>
 ```
+
+![](.\assets\readme\quote1.jpg)
